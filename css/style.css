@@ -270,9 +270,102 @@ body {
 }
 
 .card {
-    padding: 20px 15px;
+    padding: 25px 15px 10px;
     margin-top: 80px;
+    margin-bottom: 20px;
     background-color: #F7F8FF;
-    height: 600px;
+    height: 605px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 13px;
+    border: none;
 
+}
+
+.card .view {
+    margin: 0px auto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #403669;
+}
+
+.card .title h2{
+    font-size: 24px;
+    color: #2B2B4C;
+    font-weight: 600;
+}
+
+.card .title a {
+    color: #31193B
+}
+
+.card .card-title {
+    margin: 0;
+    font-size: 18px;
+    color: #2B2B4C;
+    font-weight: 600;
+
+}
+
+.card .card-body {
+    padding: 0;
+    height: auto;
+}
+
+.card-body hr {
+    width: 95%;
+    margin: 5px auto 0px;
+    border-top-color: rgba(179, 172, 255, 0.2);
+}
+
+.card .card-body a {
+    width: 40px;
+    height: 40px;
+    background-color: #593E98;
+    color: white;
+    border-radius: 13px;
+
+}
+
+.card .card-body a i{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+
+.card .card-body p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2B2B4C;
+}
+
+.card .card-body span {
+    color: #C0C3DC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card-body .walet a {
+    background-color: white;
+    margin-right: 8px;
+}
+
+.walet a i {
+    color: #BAA2FF;
+    font-size: 1rem;
+
+}
+
+.card-body .walet .money {
+    color: #39B54A;
+    font-weight: 600;
+}
+
+.card-body .walet .withdrawn {
+    color: #FF392B;
 }
