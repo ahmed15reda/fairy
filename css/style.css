@@ -8,7 +8,7 @@
 
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .clear {
@@ -103,7 +103,6 @@ body {
 .content-container {
   position: absolute;
   left: 130px;
-  height: 100vh;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   background-color: #fff;
@@ -196,7 +195,6 @@ body {
 .table {
     margin-top: 80px;
     height: 382px;
-
 }
 
 .table tr {
@@ -269,4 +267,12 @@ body {
     flex: 0 0 28%;
     max-width: 28%;
 }
+}
+
+.card {
+    padding: 20px 15px;
+    margin-top: 80px;
+    background-color: #F7F8FF;
+    height: 600px;
+
 }
