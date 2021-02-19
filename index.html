@@ -17,7 +17,8 @@
 </head>
 
 <body>
-    <div class="sidebar-container ">
+    <div class="sidebar-container" id="side-nav">
+        <a id="close"><i class="fas fa-times"></i></a>
         <div class="sidebar-logo text-center"><svg width="76" height="33" viewBox="0 0 76 33" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -25,85 +26,64 @@
                     fill="white" />
             </svg>
         </div>
-        <ul class="sidebar-navigation">
-            <li>
-                <a href="#">
-                    <i class="fa fa-home" aria-hidden="true"></i> Overview
+        <ul class="sidebar-navigation" id="sidebar-navigation">
+            <li class="item active">
+                <a href="#" >
+                    <i class="fa fa-chart-pie link"></i> <br>
+                    <span>Overview</span>
                 </a>
             </li>
-            <li>
-                <a href="#" class="active">
-                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M15 19L8 14L1 19V3C1 2.46957 1.21071 1.96086 1.58579 1.58579C1.96086 1.21071 2.46957 1 3 1H13C13.5304 1 14.0391 1.21071 14.4142 1.58579C14.7893 1.96086 15 2.46957 15 3V19Z"
-                            stroke="#8F89CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg><br>
-                    Bookings
+            <li class="item">
+                <a href="#" >
+                    <i class="far fa-bookmark link"></i><br>
+                    <span>Bookings</span>
                 </a>
             </li>
-            <li>
+            <li class="item">
                 <a href="#">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M19 9.50003C19.0034 10.8199 18.6951 12.1219 18.1 13.3C17.3944 14.7118 16.3098 15.8992 14.9674 16.7293C13.6251 17.5594 12.0782 17.9994 10.5 18C9.18013 18.0035 7.87812 17.6951 6.7 17.1L1 19L2.9 13.3C2.30493 12.1219 1.99656 10.8199 2 9.50003C2.00061 7.92179 2.44061 6.37488 3.27072 5.03258C4.10083 3.69028 5.28825 2.6056 6.7 1.90003C7.87812 1.30496 9.18013 0.996587 10.5 1.00003H11C13.0843 1.11502 15.053 1.99479 16.5291 3.47089C18.0052 4.94699 18.885 6.91568 19 9.00003V9.50003Z"
-                            stroke="#8F89CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg><br>
-                    Connects
+                    <i class="far fa-comment link"></i><br>
+                    <span>Connects</span>
                 </a>
             </li>
-            <li>
+            <li class="item">
                 <a href="#">
-                    <svg width="24" height="2" viewBox="0 0 24 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1H23" stroke="#8F89CC" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg><br>
-                    <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M21 1H3C1.89543 1 1 1.89543 1 3V15C1 16.1046 1.89543 17 3 17H21C22.1046 17 23 16.1046 23 15V3C23 1.89543 22.1046 1 21 1Z"
-                            stroke="#8F89CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg><br>
+                    <i class="fas fa-wallet link"></i><br>
+                    <span>Payments</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#">
+                    <i class="far fa-user link"></i><br>
 
-                    Payments
+                    <span>Account</span>
                 </a>
             </li>
-            <li>
+            <li class="item">
                 <a href="#">
-                    <svg width="12" height="11" viewBox="0 0 12 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M5.88878 9.88889C8.34338 9.88889 10.3332 7.89904 10.3332 5.44444C10.3332 2.98985 8.34338 1 5.88878 1C3.43418 1 1.44434 2.98985 1.44434 5.44444C1.44434 7.89904 3.43418 9.88889 5.88878 9.88889Z"
-                            stroke="#8F89CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg><br>
-                    <svg width="20" height="9" viewBox="0 0 20 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M18.7778 7.99967V5.77745C18.7778 4.59871 18.3095 3.46825 17.476 2.63476C16.6425 1.80126 15.5121 1.33301 14.3333 1.33301H5.44444C4.2657 1.33301 3.13524 1.80126 2.30175 2.63476C1.46825 3.46825 1 4.59871 1 5.77745V7.99967"
-                            stroke="#8F89CC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg><br>
-
-                    Account
+                    <i class="fas fa-box link"></i><br>
+                     <span>Products</span>
                 </a>
             </li>
-            <li>
+            <li class="item">
                 <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Products
+                    <i class="fas fa-landmark link"></i><br>
+                     <span>Services</span>
                 </a>
             </li>
-            <li>
+            <li class="item">
                 <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Services
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa fa-info-circle" aria-hidden="true"></i> Reports
+                    <i class="far fa-clipboard link"></i><br>
+                     <span>Reports</span>
                 </a>
             </li>
         </ul>
     </div>
 
     <div class="container">
-        <div class="content-container">
+        <div class="content-container" id="content-container">
             <div class="jumbotron bg-transparent m-auto w-100">
                 <div class="float-left">
+                    <a id="toggle"><i class="fas fa-bars"></i></a>
                     <input type="search" class="form-control" placeholder="Search" aria-label="Search"
                         aria-describedby="basic-addon1">
                 </div>
