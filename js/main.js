@@ -55,12 +55,23 @@ function displayCalendar(){
 }
 
 let sidebar = document.getElementById("sidebar-navigation");
-var link = sidebar.getElementsByClassName("item");
+let link = sidebar.getElementsByClassName("item");
 
-for (var i = 0; i < link.length; i++) {
+for (let i = 0; i < link.length; i++) {
   link[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
+    let current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
   });
 }
+
+let contacts = document.getElementById("chat-contacts");
+let chat = contacts.getElementsByClassName("chat");
+
+for (let i = 0; i < chat.length; i++) {
+    chat[i].addEventListener("click", function() {
+      let current = document.getElementsByClassName("activeChat");
+      current[0].className = current[0].className.replace(" activeChat", "");
+      this.className += " activeChat";
+    });
+  }

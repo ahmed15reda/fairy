@@ -788,7 +788,7 @@ body {
 }
 
 .payment-method form .methods span img {
-  background-color: #00C48C;
+  background-color: #00c48c;
   border-radius: 50%;
   padding: 4px;
 }
@@ -871,4 +871,71 @@ body {
 
 .payment-method form .checkbox {
   display: none;
+}
+
+.messenger {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-container {
+  max-width: 1260px;
+  border-top: 1px solid #E7E9F3;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.chat-container .form-control {
+  width: 94%;
+  height: 45px;
+  background-color: #F4F6F7;
+  margin-bottom: 43px;
+}
+
+.chat-container .chat-contacts h2 {
+  margin: 45px 0 22px 5px;
+}
+
+.chat-container .chat-contacts::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-container .chat-contacts{
+  border-right: 1px solid #E7E9F3;
+  height: 100vh;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chat-container .chat-contacts .chat {
+  width: 100%;
+  margin-bottom: 8px;
+  cursor: pointer;
+  padding: 18px 37px 18px 19px;
+
+}
+
+.chat-container .chat-contacts .chat h6 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #343434;
+}
+
+.chat-container .chat-contacts .chat .text {
+  font-size: 13px;
+  color: #595959;
+  font-weight: 400;
+  font-family: 'Prompt', sans-serif;
+}
+
+.chat-container .chat-contacts .chat .time {
+  font-size: 15px;
+  color: rgba(60, 60, 67, 0.6);
+}
+
+.chat-container .chat-contacts div.activeChat {
+  background-color: white;
+  box-shadow: 0px -16px 23px rgba(165, 165, 249, 0.08), 0px 24px 32px rgba(50, 50, 71, 0.08);
+border-radius: 16px;
+width: 101%;
 }
