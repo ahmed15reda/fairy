@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/976938fa09.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidebar-container" id="side-nav">
+        <a id="close"><i class="fas fa-times"></i></a>
+        <div class="sidebar-logo text-center"><svg width="76" height="33" viewBox="0 0 76 33" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1.01956 1.02551L0 2.0506V13.766V25.481H2.69945H5.39891V19.8418V14.2025H9.48754C14.0995 14.2025 14.9508 13.7581 14.9508 11.3499V10.0253H10.1749H5.39891V7.31013V4.59494H11.8361H18.2732V2.29747V0H10.1562C2.09145 0 2.03207 0.00668435 1.01956 1.02551ZM37.377 2.08861V4.17722H39.8689H42.3607V2.92405C42.3607 1.13787 41.0674 0 39.0382 0H37.377V2.08861ZM22.5388 6.25078C20.8863 7.00519 19.1088 9.12137 19.1055 10.3386C19.103 11.1001 23.6564 11.004 24.6859 10.2208C25.6876 9.45889 28.2463 9.42296 29.2446 10.1573C30.3336 10.9585 29.9133 12.2388 28.4452 12.5931C27.7616 12.7581 25.894 13.1916 24.2951 13.5563C20.8934 14.3333 19.2454 15.6971 18.6761 18.2076C17.5718 23.0774 21.7692 26.6456 27.5153 25.7212C30.2069 25.2884 32.5837 24.0482 33.6776 22.5052C34.6053 21.1969 34.6871 20.6559 34.8101 15.0263C34.9322 9.41294 34.8778 8.87533 34.0837 7.86027C32.2655 5.53481 26.0148 4.66344 22.5388 6.25078ZM37.377 15.6854V25.5228L39.765 25.3975L42.153 25.2722L42.2647 16.2247C42.3926 5.88779 42.381 5.8481 39.2164 5.8481H37.377V15.6854ZM50.339 6.31971C48.4693 6.86191 45.9775 9.47852 45.3616 11.5458C45.0601 12.5575 44.8525 15.7494 44.8525 19.3681V25.481H47.3443H49.8361L49.8386 20.3639C49.8415 13.8516 50.2559 12.2438 52.1356 11.4539C52.9118 11.1277 54.0202 10.8608 54.5987 10.8608C55.6071 10.8608 55.6503 10.758 55.6503 8.35443V5.8481L53.6776 5.88569C52.5924 5.90658 51.0903 6.10166 50.339 6.31971ZM58.7144 9.69406C63.7773 23.9342 64.4995 26.3286 64.0373 27.3491C63.6755 28.1469 63.2121 28.3817 61.7963 28.4844L60.0109 28.6139L59.8855 30.807L59.7597 33L62.1697 32.9983C64.8255 32.9967 66.8634 32.0551 67.728 30.4298C68.1267 29.6804 76 6.39072 76 5.96088C76 5.55695 71.0446 5.93958 70.6991 6.37025C70.4686 6.65765 69.5317 9.52405 68.6176 12.7405C67.6956 15.9837 66.841 18.3096 66.6985 17.962C66.5573 17.6174 65.7246 14.7978 64.8479 11.6962L63.2536 6.05696L60.2937 5.93457L57.3343 5.81176L58.7144 9.69406ZM29.9016 17.4879C29.9016 20.4099 27.3127 22.2988 24.6851 21.2942C23.7664 20.9429 23.6393 20.6743 23.751 19.3205C23.8765 17.7941 23.9504 17.7289 26.5792 16.8279C28.0639 16.3191 29.4191 15.8964 29.5902 15.888C29.7613 15.8801 29.9016 16.5998 29.9016 17.4879Z"
+                    fill="white" />
+            </svg>
+        </div>
+        <ul class="sidebar-navigation" id="sidebar-navigation">
+            <li class="item active">
+                <a href="index.html">
+                    <i class="fa fa-chart-pie link"></i> <br>
+                    <span>Overview</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#">
+                    <i class="far fa-bookmark link"></i><br>
+                    <span>Bookings</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#">
+                    <i class="far fa-comment link"></i><br>
+                    <span>Connects</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="payments.html">
+                    <i class="fas fa-wallet link"></i><br>
+                    <span>Payments</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#">
+                    <i class="far fa-user link"></i><br>
+
+                    <span>Account</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#">
+                    <i class="fas fa-box link"></i><br>
+                    <span>Products</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#">
+                    <i class="fas fa-landmark link"></i><br>
+                    <span>Services</span>
+                </a>
+            </li>
+            <li class="item">
+                <a href="#">
+                    <i class="far fa-clipboard link"></i><br>
+                    <span>Reports</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="content-container">
+        <div class="jumbotron bg-transparent m-auto w-100">
+            <div class="float-left">
+                <a id="toggle"><i class="fas fa-bars"></i></a>
+                <input type="search" class="form-control" placeholder="Search" aria-label="Search"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <div class="user float-right d-flex align-items-center">
+                <div>
+                    <a onclick="displayMenu()" href="#"><i class="far fa-bell"></i></a>
+                    <div class="collapse navbar-collapse position-absolute" id="navbar-list">
+                        <ul class="nav navbar-nav ml-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 5</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 6</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <a onclick="displayMenu()" href="#"> <img src="images/atikh-bana.png" alt=""></a>
+                    <div class="collapse navbar-collapse position-absolute" id="navbar-list">
+                        <ul class="nav navbar-nav ml-auto ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 4</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 5</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Notification 6</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <a href="#">
+                        <p>Rebecca Moore</p>
+                    </a>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="payment-method m-auto">
+                <div class="add d-flex justify-content-center align-items-center">
+                    <a href="payments.html">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <svg width="8" height="15" viewBox="0 0 8 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 1.5L0.999999 7.5L7 13.5" stroke="#593E98" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                        </div>
+                    </a>
+                    <h2 class="mb-0 ml-4">Add Payment method</h2>
+                </div>
+                <form>
+                    <div class="terms d-flex justify-content-between">
+                        <div>
+                            <h3>Enter your payment details</h3>
+                            <p class="agree">By continuing you agree to our <span>Terms</span></p>
+                            <div class="methods d-flex align-items-center mt-5">
+                                
+                                <div class="d-flex justify-content-center align-items-center position-relative">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                        <img src="images/icons8-checkmark-16.png" alt="">
+                                    </span>
+                                    <svg width="15" height="17" viewBox="0 0 16 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.191 0.217773L7.20445 12.1076C7.20445 12.1076 6.19187 7.07812 6.09167 6.44658C3.8221 1.26831 0.473145 1.55675 0.473145 1.55675L4.42023 16.917V16.914H9.21898L15.8546 0.217773H11.191Z"
+                                            fill="#1565C0" />
+                                    </svg>
+                                    <!--
+                                    --><svg width="7" height="17" viewBox="0 0 8 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0.99121 16.917H5.34971L7.98515 0.217773H3.572L0.99121 16.917Z"
+                                            fill="#1565C0" />
+                                    </svg>
+                                    <!--
+                                    --><svg width="11" height="17" viewBox="0 0 13 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M6.1687 5.08538C6.1687 4.1654 6.92472 3.48074 9.09258 3.48074C10.5014 3.48074 12.1151 4.50394 12.1151 4.50394L12.8226 0.998624C12.8226 0.998624 10.761 0.216798 8.73734 0.216798C4.15417 0.216798 1.79047 2.40895 1.79047 5.18406C1.79047 10.2029 7.83103 9.51523 7.83103 12.093C7.83103 12.5348 7.48035 13.5564 4.96484 13.5564C2.44174 13.5564 0.776366 12.6319 0.776366 12.6319L0.0249031 15.996C0.0249031 15.996 1.63865 16.916 4.75685 16.916C7.88264 16.916 12.2184 14.5781 12.2184 11.2201C12.2184 7.18037 6.1687 6.8889 6.1687 5.08538Z"
+                                            fill="#1565C0" />
+                                    </svg>
+                                    <!--
+                                    --><svg width="15" height="17" viewBox="0 0 16 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11.8381 0.217773H7.25186L0.101563 16.917H4.43122L5.32386 14.532H10.783L11.2475 16.917H15.2144L11.8381 0.217773ZM6.53228 11.3425L8.90509 5.0317L10.1469 11.3425H6.53228Z"
+                                            fill="#1565C0" />
+                                    </svg>
+
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="https://img.icons8.com/fluent/48/000000/paypal.png" />
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="https://img.icons8.com/ios-glyphs/40/000000/mac-os.png" />
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/visa (2).png" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="form-group ">
+                            <label for="name">Cardholder Name</label>
+                            <input type="text" class="form-control w-100" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="card-number">Card Number</label>
+                            <input type="number" class="form-control w-100" id="card-number">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="box d-flex justify-content-between">
+                            <div>
+                                <label>Exp Month</label>
+                                <select>
+                                    <option style="display:none;">Month</option>
+                                    <option name="January" value="1">1</option>
+                                    <option name="February" value="2">2</option>
+                                    <option name="March" value="3">3</option>
+                                    <option name="April" value="4">4</option>
+                                    <option name="May" value="5">5</option>
+                                    <option name="June" value="6">6</option>
+                                    <option name="July" value="7">7</option>
+                                    <option name="August" value="8">8</option>
+                                    <option name="September" value="9">9</option>
+                                    <option name="October" value="10">10</option>
+                                    <option name="November" value="11">11</option>
+                                    <option name="December" value="12">12</option>
+
+                                </select>
+                            </div>
+
+                            <div>
+                                <label>Exp Month</label>
+                                <select>
+                                    <option style="display:none;">Year</option>
+                                    <option name="January" value="1">2020</option>
+                                    <option name="February" value="2">2021</option>
+                                    <option name="March" value="3">2023</option>
+                                    <option name="April" value="4">2024</option>
+                                    <option name="May" value="5">2025</option>
+                                    <option name="June" value="6">2026</option>
+                                    <option name="July" value="7">2027</option>
+                                    <option name="August" value="8">2028</option>
+                                    <option name="September" value="9">2029</option>
+                                    <option name="October" value="10">2030</option>
+                                    <option name="November" value="11">2031</option>
+                                    <option name="December" value="12">2032</option>
+                                </select>
+                            </div>
+
+
+
+                        </div>
+                        <div class="box d-flex justify-content-between align-items-center">
+                            <div>
+                                <label>CVC</label>
+                                <select>
+                                    <option style="display:none;">1234</option>
+                                    <option name="" value="1111">1111</option>
+                                    <option name="" value="2222">2222</option>
+                                    <option name="" value="3333">3333</option>
+                                    <option name="" value="4444">4444</option>
+
+                                </select>
+                            </div>
+
+                            <div>
+                                <p class="cvc">3 or 4 digits usually found on the signature strip</p>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <input type="checkbox" id="switch" class="checkbox" />
+                        <label for="switch" class="toggle">
+                        </label>
+                    </div>
+                    <button class="mt-3">Add Now</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
