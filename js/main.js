@@ -70,8 +70,11 @@ let chat = contacts.getElementsByClassName("chat");
 
 for (let i = 0; i < chat.length; i++) {
     chat[i].addEventListener("click", function() {
+        
       let current = document.getElementsByClassName("activeChat");
       current[0].className = current[0].className.replace(" activeChat", "");
       this.className += " activeChat";
     });
   }
+
+

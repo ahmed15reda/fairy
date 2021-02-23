@@ -40,10 +40,11 @@ body {
 .collapse {
   background-color: #d2d2d2;
   width: 200px;
-  left: 74%;
-  top: 7%;
+  left: -90px;
+  top: 20px;
   background-color: #9478d5;
   border-radius: 10px;
+  z-index: 9999;
 }
 
 .collapse li {
@@ -601,20 +602,21 @@ body {
   cursor: pointer;
 }
 
-.payment .tabe .active {
+.payment .tabe .activeTab {
   font-weight: 600;
   color: #2b2b4c;
 }
 
-.payment .tabe span.active:after {
+.payment .tabe .activeTab:after {
   position: absolute;
   content: '';
-  width: 34px;
+
   height: 6px;
-  left: -10px;
+  left: 0px;
   bottom: -13px;
   background: #593e98;
   border-radius: 13px;
+  width: 100%;
 }
 
 .payment .pay {
@@ -906,7 +908,7 @@ body {
 
 .chat-container .chat-contacts {
   border-right: 2px solid #f1f2f2;
-  height: 100vh;
+  
   overflow-y: scroll;
   scrollbar-width: none;
 }
@@ -1048,8 +1050,8 @@ body {
 
 .myChat .fa-camera {
   position: absolute;
-  left: 35px;
-  bottom: 140px;
+  left: 25px;
+  bottom: 18px;
   color: #E5EAEC;
   font-size: 1.2rem;
 }
@@ -1057,7 +1059,7 @@ body {
 .myChat .fa-telegram-plane {
   position: absolute;
   right: 70px;
-  bottom: 135px;
+  bottom: 10px;
   font-size: 2rem;
   color: #593E98;
 }
