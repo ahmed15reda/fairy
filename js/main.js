@@ -78,3 +78,54 @@ for (let i = 0; i < chat.length; i++) {
   }
 
 
+  function showRecent() {
+    if (document.getElementById("recent-list").classList.contains("show")) {
+        document.getElementById("recent-list").classList.remove("show");
+
+    } else {
+        document.getElementById("recent-list").classList.add("show")
+    }
+}
+
+function edit(x) {
+    if(x==1){
+        if (document.getElementById("edit-list1").classList.contains("show")) {
+            document.getElementById("edit-list1").classList.remove("show");
+    
+        } else{
+            document.getElementById("edit-list1").classList.add("show")
+        }
+    }else if (x==2){
+        if (document.getElementById("edit-list2").classList.contains("show")) {
+            document.getElementById("edit-list2").classList.remove("show");
+    
+        } else{
+            document.getElementById("edit-list2").classList.add("show")
+        }
+    }
+    else if (x==3){
+        if (document.getElementById("edit-list3").classList.contains("show")) {
+            document.getElementById("edit-list3").classList.remove("show");
+    
+        } else{
+            document.getElementById("edit-list3").classList.add("show")
+        }
+    }
+    else if (x==4){
+        if (document.getElementById("edit-list4").classList.contains("show")) {
+            document.getElementById("edit-list4").classList.remove("show");
+    
+        } else{
+            document.getElementById("edit-list4").classList.add("show")
+        }
+    }
+    else if (x==5){
+        if (document.getElementById("edit-list5").classList.contains("show")) {
+            document.getElementById("edit-list5").classList.remove("show");
+    
+        } else{
+            document.getElementById("edit-list5").classList.add("show")
+        }
+    }
+    
+}

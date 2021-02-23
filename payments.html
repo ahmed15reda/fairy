@@ -78,7 +78,7 @@
             </li>
         </ul>
     </div>
-    <div class="content-container" >
+    <div class="content-container">
         <div class="jumbotron bg-transparent m-auto w-100">
             <div class="float-left">
                 <a id="toggle"><i class="fas fa-bars"></i></a>
@@ -164,9 +164,32 @@
                             <div>
                                 <h2>Transactions</h2>
                             </div>
-                            <div>
-                                <a href="#" class="btn d-flex align-items-center justify-content-center"><i
+                            <div class="position-relative">
+                                <a onclick="showRecent()" class="btn d-flex align-items-center justify-content-center"><i
                                         class="fas fa-chevron-down"></i>Recent</a>
+                                <div class="collapse navbar-collapse position-absolute" id="recent-list">
+                                    <ul class="nav navbar-nav ml-auto ">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Notification 1</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Notification 2</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Notification 3</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Notification 4</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Notification 5</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Notification 6</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="card-body" id="card-body">
@@ -376,7 +399,8 @@
                         </div>
                     </div>
                     <div class="pay new">
-                        <a href="paymentMethod.html" class="add d-flex align-items-center justify-content-center"><i class="fas fa-plus"></i>Add
+                        <a href="paymentMethod.html" class="add d-flex align-items-center justify-content-center"><i
+                                class="fas fa-plus"></i>Add
                             New</a>
 
                     </div>

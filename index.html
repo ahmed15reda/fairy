@@ -30,13 +30,13 @@
         </div>
         <ul class="sidebar-navigation" id="sidebar-navigation">
             <li class="item active">
-                <a href="index.html" >
+                <a href="index.html">
                     <i class="fa fa-chart-pie link"></i> <br>
                     <span>Overview</span>
                 </a>
             </li>
             <li class="item">
-                <a href="#" >
+                <a href="#">
                     <i class="far fa-bookmark link"></i><br>
                     <span>Bookings</span>
                 </a>
@@ -63,19 +63,19 @@
             <li class="item">
                 <a href="#">
                     <i class="fas fa-box link"></i><br>
-                     <span>Products</span>
+                    <span>Products</span>
                 </a>
             </li>
             <li class="item">
                 <a href="#">
                     <i class="fas fa-landmark link"></i><br>
-                     <span>Services</span>
+                    <span>Services</span>
                 </a>
             </li>
             <li class="item">
                 <a href="#">
                     <i class="far fa-clipboard link"></i><br>
-                     <span>Reports</span>
+                    <span>Reports</span>
                 </a>
             </li>
         </ul>
@@ -310,12 +310,38 @@
                                 <td class="time">8:00 AM</td>
                                 <td class="location">2320 Wedgewood Dr, El Dorado, KS, 67042</td>
                                 <td><button class="btn">Confirmed</button></td>
-                                <td><svg width="4" height="16" viewBox="0 0 4 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
-                                            fill="#C5C7CD" />
-                                    </svg>
+                                <td class="position-relative">
+                                    <a href="#" onclick="event.preventDefault();edit(1)">
+                                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
+                                                fill="#C5C7CD" />
+                                        </svg>
+                                    </a>
+                                    <div class="collapse navbar-collapse position-absolute" id="edit-list1">
+                                        <ul class="nav navbar-nav ml-auto ">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 3</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 4</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 5</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 6</a>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
                                 </td>
 
                             </tr>
@@ -325,12 +351,38 @@
                                 <td class="time">12:00 PM</td>
                                 <td class="location">2320 Wedgewood Dr, El Dorado, KS, 67042</td>
                                 <td><button class="btn">Confirmed</button></a></td>
-                                <td><svg width="4" height="16" viewBox="0 0 4 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
-                                            fill="#C5C7CD" />
-                                    </svg>
+                                <td class="position-relative">
+                                    <a href="#" onclick="event.preventDefault();edit(2)">
+                                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
+                                                fill="#C5C7CD" />
+                                        </svg>
+                                    </a>
+                                    <div class="collapse navbar-collapse position-absolute" id="edit-list2">
+                                        <ul class="nav navbar-nav ml-auto ">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 3</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 4</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 5</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 6</a>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
@@ -339,12 +391,38 @@
                                 <td class="time">8:00 AM</td>
                                 <td class="location">2320 Wedgewood Dr, El Dorado, KS, 67042</td>
                                 <td><button class="btn">Confirmed</button></a></td>
-                                <td><svg width="4" height="16" viewBox="0 0 4 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
-                                            fill="#C5C7CD" />
-                                    </svg>
+                                <td class="position-relative">
+                                    <a href="#" onclick="event.preventDefault();edit(3)">
+                                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
+                                                fill="#C5C7CD" />
+                                        </svg>
+                                    </a>
+                                    <div class="collapse navbar-collapse position-absolute" id="edit-list3">
+                                        <ul class="nav navbar-nav ml-auto ">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 3</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 4</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 5</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 6</a>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
@@ -353,12 +431,38 @@
                                 <td class="time">8:00 AM</td>
                                 <td class="location">2320 Wedgewood Dr, El Dorado, KS, 67042</td>
                                 <td><button class="btn cancel">Canceled</button></a></td>
-                                <td><svg width="4" height="16" viewBox="0 0 4 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
-                                            fill="#C5C7CD" />
-                                    </svg>
+                                <td class="position-relative">
+                                    <a href="#" onclick="event.preventDefault();edit(4)">
+                                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
+                                                fill="#C5C7CD" />
+                                        </svg>
+                                    </a>
+                                    <div class="collapse navbar-collapse position-absolute" id="edit-list4">
+                                        <ul class="nav navbar-nav ml-auto ">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 3</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 4</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 5</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 6</a>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
                                 </td>
                             </tr>
                             <tr>
@@ -367,12 +471,38 @@
                                 <td class="time">8:00 AM</td>
                                 <td class="location">2320 Wedgewood Dr, El Dorado, KS, 67042</td>
                                 <td><button class="btn">Confirmed</button></a></td>
-                                <td><svg width="4" height="16" viewBox="0 0 4 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
-                                            fill="#C5C7CD" />
-                                    </svg>
+                                <td class="position-relative">
+                                    <a href="#" onclick="event.preventDefault();edit(5)" >
+                                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M2 4C3.1 4 4 3.1 4 2C4 0.9 3.1 0 2 0C0.9 0 0 0.9 0 2C0 3.1 0.9 4 2 4ZM2 6C0.9 6 0 6.9 0 8C0 9.1 0.9 10 2 10C3.1 10 4 9.1 4 8C4 6.9 3.1 6 2 6ZM2 12C0.9 12 0 12.9 0 14C0 15.1 0.9 16 2 16C3.1 16 4 15.1 4 14C4 12.9 3.1 12 2 12Z"
+                                                fill="#C5C7CD" />
+                                        </svg>
+                                    </a>
+                                    <div class="collapse navbar-collapse position-absolute" id="edit-list5">
+                                        <ul class="nav navbar-nav ml-auto ">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 3</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 4</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 5</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Notification 6</a>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
                                 </td>
                             </tr>
                         </tbody>

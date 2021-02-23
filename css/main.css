@@ -421,6 +421,11 @@ body {
   color: #31193b;
 }
 
+.card .title .collapse {
+  top: 44px;
+  left: -44px;
+}
+
 .card .card-title {
   margin: 0;
   font-size: 18px;
@@ -1045,14 +1050,13 @@ body {
   padding-left: 50px;
   height: 60px;
   border: 1px solid #ccc;
-  
 }
 
 .myChat .fa-camera {
   position: absolute;
   left: 25px;
   bottom: 18px;
-  color: #E5EAEC;
+  color: #e5eaec;
   font-size: 1.2rem;
 }
 
@@ -1061,5 +1065,5 @@ body {
   right: 70px;
   bottom: 10px;
   font-size: 2rem;
-  color: #593E98;
+  color: #593e98;
 }
