@@ -36,13 +36,23 @@ $("#close").click(function () {
     }
 })
 
-function displayMenu() {
-    if (document.getElementById("navbar-list").classList.contains("show")) {
-        document.getElementById("navbar-list").classList.remove("show");
-
-    } else {
-        document.getElementById("navbar-list").classList.add("show")
+function displayMenu(x) {
+    if(x==1){
+        if (document.getElementById("navbar-list1").classList.contains("show")) {
+            document.getElementById("navbar-list1").classList.remove("show");
+    
+        } else {
+            document.getElementById("navbar-list1").classList.add("show")
+        }
+    }else if(x==2){
+        if (document.getElementById("navbar-list2").classList.contains("show")) {
+            document.getElementById("navbar-list2").classList.remove("show");
+    
+        } else {
+            document.getElementById("navbar-list2").classList.add("show")
+        }
     }
+    
 }
 
 function displayCalendar(){
