@@ -8,6 +8,12 @@ body {
   overflow-x: hidden;
 }
 
+
+.c-pointer {
+  cursor: pointer;
+ }
+
+
 .clear {
   clear: both;
 }
@@ -45,6 +51,7 @@ body {
   background-color: #9478d5;
   border-radius: 10px;
   z-index: 9999;
+  display: none;
 }
 
 .collapse li {
