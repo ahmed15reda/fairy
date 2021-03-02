@@ -1002,11 +1002,11 @@ body {
   line-height: 26px;
 }
 
-.chat-container .chat-content .messages p:first-child {
+.chat-container .chat-content .messages p:first-child, .chat-container .chat-content .messages p:nth-child(3){
   width: 30%;
 }
 
-.chat-container .chat-content .messages p:nth-child(2) {
+.chat-container .chat-content .messages p:nth-child(2), .chat-container .chat-content .messages p:nth-child(4) {
   width: 80%;
 }
 
@@ -1078,4 +1078,15 @@ body {
   bottom: 10px;
   font-size: 2rem;
   color: #593e98;
+}
+
+
+.messages-container {
+  height: 460px;
+  overflow-y: scroll;
+}
+
+
+.chat-container .messages-container::-webkit-scrollbar {
+  display: none;
 }
